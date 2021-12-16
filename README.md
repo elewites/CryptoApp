@@ -1,6 +1,20 @@
 # CryptoApp
 
-This repository makes use of the following API [CoinGecko API V3](https://www.coingecko.com/api/documentations/v3#/) to fetch real time data on crypto currencies.
+This repository makes use of the [CoinGecko API V3](https://www.coingecko.com/api/documentations/v3#/) to fetch real time data on crypto currencies.
+
+## User Stories
+1. As a user, in this app one is able to check the following stats for multiple crypto currencies.
+- ranking
+- current price
+- percentage price change within last 24h
+- 24h volume
+- Market Capital 
+
+2. The user is also able to search for specific crypto currencies in a customized search bar. 
+
+3. The user also has the ability to toggle between the currency in which the prices for each crypto currency is displayed in. 
+
+- e.g. Displaying the price of bitcoin in USD or EUR is the user's choice. 
 
 ## Available Scripts
 
