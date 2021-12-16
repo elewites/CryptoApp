@@ -18,6 +18,8 @@ This repository makes use of the [CoinGecko API V3](https://www.coingecko.com/ap
 
 4. If the user wants to explore an individual coin more in depth, they can do this by clicking on the more info buttons. 
 
+5. As a user, one is able to toggle between dark themed mode and light mode. 
+
 ## Available Scripts
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
