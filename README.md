@@ -1,8 +1,10 @@
-# Getting Started with Create React App
+#CryptoApp
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository makes use of the following API [CoinGecko API V3](https://www.coingecko.com/api/documentations/v3#/) to fetch real time data on crypto currencies.
 
 ## Available Scripts
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 In the project directory, you can run:
 
