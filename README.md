@@ -20,6 +20,8 @@ This repository makes use of the [CoinGecko API V3](https://www.coingecko.com/ap
 
 5. As a user, one is able to toggle between dark themed mode and light mode. 
 
+6. The user should be ble to use the app in a laptop or mobile device as all the CSS styling is responsive. 
+
 ## Available Scripts
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
