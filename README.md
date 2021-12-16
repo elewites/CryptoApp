@@ -1,4 +1,4 @@
-#CryptoApp
+# CryptoApp
 
 This repository makes use of the following API [CoinGecko API V3](https://www.coingecko.com/api/documentations/v3#/) to fetch real time data on crypto currencies.
 
