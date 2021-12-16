@@ -1,0 +1,131 @@
+.coin-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.coin-data {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 90%;
+  box-sizing: border-box;
+  border-bottom: 1px solid lavender;
+
+  transition-duration: 0.3s;
+}
+
+.coin-data:hover {
+  background-color: rgb(248, 248, 248);
+}
+
+.coin-rank {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.icon-and-name {
+  width: 280px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.coin-icon {
+  height: 30px;
+  width: 30px;
+  display: flex;
+}
+
+.coin-name {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 10px;
+  height: 30px;
+  width: 180px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.coin-symbol {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  width: 40px;
+  font-size: 15px;
+}
+
+.coin-price {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: 30px;
+  width: 70px;
+  height: 30px;
+  font-size: 15px;
+  text-align: right;
+}
+
+.coin-volume {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: 30px;
+  font-size: 15px;
+  height: 30px;
+  width: 150px;
+}
+
+.price-change {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: 30px;
+  font-size: 15px;
+  height: 30px;
+  width: 70px;
+  text-align: right;
+  box-sizing: border-box;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: rgb(31, 173, 31);
+}
+
+.mkt-cap {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  font-size: 15px;
+  height: 30px;
+  width: 150px;
+  margin-left: 30px;
+}
+
+.more-info-button {
+  width: 90px;
+  height: 35px;
+  margin-left: 50px;
+  border: 2px solid lightgray;
+  background-color: transparent;
+  border-radius: 5px;
+  transition-duration: 0.4s;
+}
+
+.more-info-button:hover {
+  background-color: rgb(221, 221, 221);
+}

@@ -1,0 +1,90 @@
+.title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: 50px;
+}
+
+.title-coin-data {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 90%;
+  height: 40px;
+  box-sizing: border-box;
+  border-top: 2px solid lavender;
+  border-bottom: 2px solid lavender;
+  font-weight: bold;
+}
+
+.title-data {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 90%;
+  box-sizing: border-box;
+}
+
+.title-rank {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.title-icon-and-name {
+  width: 270px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.title-coin-price {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: 30px;
+  width: 70px;
+  height: 30px;
+  font-size: 15px;
+  text-align: right;
+}
+
+.title-coin-volume {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: 30px;
+  font-size: 15px;
+  height: 30px;
+  width: 150px;
+}
+
+.title-price-change {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: 30px;
+  font-size: 15px;
+  height: 30px;
+  width: 70px;
+  text-align: right;
+  box-sizing: border-box;
+}
+
+.title-mkt-cap {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  font-size: 15px;
+  height: 30px;
+  width: 150px;
+  margin-left: 30px;
+}
