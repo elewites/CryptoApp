@@ -1,16 +1,56 @@
 .navbar-outer-container {
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
   justify-content: center;
   align-items: flex-end;
   box-sizing: border-box;
   height: 50px;
+  margin-left: 10px;
+  
+  margin-bottom: 10px;
 }
 
 .navbar-inner-container {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   flex-direction: row;
-  border: 1px solid red;
-  width: 90%;
+}
+
+.navbar-inner-container button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 35px;
+  padding: 3x;
+  border: 1px solid transparent;
+  border-radius: 15px;
+  border: 1px solid grey;
+  background-color: transparent;
+}
+
+.navbar-inner-container button:hover {
+  background-color: aliceblue;
+}
+
+.navbar-inner-container input {
+  margin-left: 10px;
+  height: 22px;
+  width: 300px;
+  border: 1px solid grey;
+  border-radius: 3px;
+  padding: 5px;
+  font-size: 15px;
+  color: rgb(59, 59, 59);
+  outline: none;
+}
+
+.navbar-inner-container input:focus {
+  outline: 3px solid rgb(152, 211, 248);
+}
+
+@media only screen and (min-width: 780px) {
+  .navbar-outer-container {
+    margin-left: 70px;
+  }
 }

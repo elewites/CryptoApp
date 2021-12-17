@@ -4,10 +4,10 @@ This repository makes use of the [CoinGecko API V3](https://www.coingecko.com/ap
 
 ## User Stories
 1. In this app the user able to check the following stats for multiple crypto currencies.
-- ranking
+- Market capital rank
 - current price
 - percentage price change within last 24h
-- 24h volume
+- 24h total volume
 - Market Capital 
 
 2. The user is also able to search for specific crypto currencies in a customized search bar. 
@@ -17,6 +17,12 @@ This repository makes use of the [CoinGecko API V3](https://www.coingecko.com/ap
 - e.g. Displaying the price of bitcoin in USD or EUR is the user's choice. 
 
 4. If the user wants to explore an individual coin more in depth, they can do this by clicking on the more info buttons. 
+
+There they will have access to additional information for each coin such as 
+- Price range within last 24h (low and high)
+- Price change within last 24h (high - low)
+- circulating supply, total supply, and max supply
+- fully diluted valuation
 
 5. As a user, one is able to toggle between dark themed mode and light mode. 
 

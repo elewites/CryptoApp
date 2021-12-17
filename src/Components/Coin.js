@@ -4,8 +4,6 @@ import React, { useState, useParams } from "react";
 import "./coin.css";
 
 export default function Coin(props) {
-  const [coin, setCoin] = useState("");
-
   return (
     <div className="coin-container">
       <div className="coin-data">
@@ -19,7 +17,7 @@ export default function Coin(props) {
         {props.priceChange < 0 ? (
           <p className="price-change red">{props.priceChange.toFixed(2)}%</p>
         ) : (
-          <p className="price-change green">{props.priceChange.toFixed(2)}%</p>
+          <p className="price-change green">{props.priceChange}%</p>
         )}
         <p className="coin-volume">${props.volume.toLocaleString()}</p>
         <p className="mkt-cap">${props.marketCap.toLocaleString()}</p>

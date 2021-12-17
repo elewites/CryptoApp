@@ -9,13 +9,14 @@ export default function Home() {
   const [coins, setCoins] = useState([]);
 
   const API_URL =
-    "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false";
+    "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=200&page=1&sparkline=false";
 
   useEffect(() => {
     axios
       .get(API_URL)
       .then((response) => {
         //handle success
+        console.log(response);
         setCoins(response.data);
       })
       .catch((error) => {
@@ -26,10 +27,12 @@ export default function Home() {
 
   return (
     <div>
+      <Navbar />
       <Titles />
       {coins.map((coin) => {
         return (
           <Coin
+            key={coin.symbol}
             rank={coin.market_cap_rank}
             name={coin.name}
             symbol={coin.symbol}
