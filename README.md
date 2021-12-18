@@ -2,6 +2,8 @@
 
 This repository makes use of the [CoinGecko API V3](https://www.coingecko.com/api/documentations/v3#/) to fetch real time data on crypto currencies.
 
+You can check out a deployed version of the project at [CryptoApp](https://unruffled-hugle-cfd73a.netlify.app/). 
+
 ## User Stories
 1. In this app the user able to check the following stats for multiple crypto currencies.
 - Market capital rank
@@ -20,13 +22,12 @@ This repository makes use of the [CoinGecko API V3](https://www.coingecko.com/ap
 
 There they will have access to additional information for each coin such as 
 - Price range within last 24h (low and high)
-- Price change within last 24h (high - low)
 - circulating supply, total supply, and max supply
 - fully diluted valuation
 
-5. As a user, one is able to toggle between dark themed mode and light mode. 
+5. As a user, one is able to toggle between dark theme mode and light mode. 
 
-6. The user should be ble to use the app in a laptop or mobile device as all the CSS styling is responsive. 
+6. The user is also able to use the app in a laptop or mobile device as all the CSS styling is responsive. 
 
 ## Available Scripts
 
