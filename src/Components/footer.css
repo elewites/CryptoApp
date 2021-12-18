@@ -3,6 +3,7 @@
   margin-top: 20px;
   margin-bottom: 40px;
   justify-content: center;
+  width: 850px;
 }
 
 .footer-container button {
@@ -38,4 +39,49 @@
   padding: 2px;
   border-bottom-left-radius: 5px;
   border-top-left-radius: 5px;
+}
+
+@media only screen and (min-width: 780px) {
+  .footer-container {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    justify-content: center;
+    width: auto;
+  }
+
+  .footer-container button {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    background-color: transparent;
+    border: 1px solid rgb(204, 202, 202);
+    padding: 2px;
+
+    transition-duration: 0.3s;
+  }
+
+  .footer-container button:hover {
+    background-color: rgb(231, 230, 230);
+  }
+
+  #arrow-right {
+    width: 60px;
+    height: 30px;
+    padding: 2px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+
+  #arrow-left {
+    width: 60px;
+    height: 30px;
+    padding: 2px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+  }
 }
