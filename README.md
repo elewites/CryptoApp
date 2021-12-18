@@ -22,7 +22,6 @@ You can check out a deployed version of the project at [CryptoApp](https://unruf
 
 There they will have access to additional information for each coin such as 
 - Price range within last 24h (low and high)
-- Price change within last 24h (high - low)
 - circulating supply, total supply, and max supply
 - fully diluted valuation
 
