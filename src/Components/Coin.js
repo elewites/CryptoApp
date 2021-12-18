@@ -8,7 +8,7 @@ import { Context } from "../Helpers/Context";
 
 export default function Coin(props) {
   //global states
-  const { currency } = useContext(Context);
+  const { currency, isDarkMode } = useContext(Context);
 
   //EFFECTS: if currency is usd, returns dollar sign, returns euro sign otherwise
   const setDisplayCurr = () => {
@@ -17,7 +17,7 @@ export default function Coin(props) {
 
   return (
     <div className="coin-container">
-      <div className="coin-data">
+      <div className={isDarkMode ? "coin-data-dark" : "coin-data-light"}>
         <p className="coin-rank">{props.rank}</p>
         <div className="icon-and-name">
           <img className="coin-icon" alt={props.name} src={props.icon} />
@@ -41,7 +41,13 @@ export default function Coin(props) {
           {setDisplayCurr()}
           {props.marketCap.toLocaleString()}
         </p>
-        <button className="more-info-button">More Info</button>
+        <button
+          className={
+            isDarkMode ? "more-info-button-dark" : "more-info-button-light"
+          }
+        >
+          More Info
+        </button>
       </div>
     </div>
   );

@@ -1,4 +1,4 @@
-.footer-container {
+.footer-container-light {
   display: flex;
   margin-top: 20px;
   margin-bottom: 40px;
@@ -6,7 +6,7 @@
   width: 850px;
 }
 
-.footer-container button {
+.footer-container-light button {
   width: 30px;
   height: 30px;
   display: flex;
@@ -21,8 +21,36 @@
   transition-duration: 0.3s;
 }
 
-.footer-container button:hover {
+.footer-container-light button:hover {
   background-color: rgb(231, 230, 230);
+}
+
+.footer-container-dark {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  justify-content: center;
+  width: 850px;
+}
+
+.footer-container-dark button {
+  color: rgb(204, 202, 202);
+  width: 30px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  background-color: transparent;
+  border: 1px solid rgb(204, 202, 202);
+  padding: 2px;
+
+  transition-duration: 0.3s;
+}
+
+.footer-container-dark button:hover {
+  background-color: rgb(66, 66, 68);
 }
 
 #arrow-right {
@@ -42,7 +70,7 @@
 }
 
 @media only screen and (min-width: 780px) {
-  .footer-container {
+  .footer-container-light {
     display: flex;
     margin-top: 20px;
     margin-bottom: 40px;
@@ -50,14 +78,14 @@
     width: auto;
   }
 
-  .footer-container button {
-    width: 30px;
-    height: 30px;
+  .footer-container-light button {
+    width: 40px;
+    height: 40px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    font-size: 12px;
+    font-size: 14px;
     background-color: transparent;
     border: 1px solid rgb(204, 202, 202);
     padding: 2px;
@@ -65,13 +93,41 @@
     transition-duration: 0.3s;
   }
 
-  .footer-container button:hover {
+  .footer-container-light button:hover {
     background-color: rgb(231, 230, 230);
+  }
+
+  .footer-container-dark {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    justify-content: center;
+    width: auto;
+  }
+
+  .footer-container-dark button {
+    color: rgb(204, 202, 202);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    background-color: transparent;
+    border: 1px solid rgb(204, 202, 202);
+    padding: 2px;
+
+    transition-duration: 0.3s;
+  }
+
+  .footer-container-dark button:hover {
+    background-color: rgb(66, 66, 68);
   }
 
   #arrow-right {
     width: 60px;
-    height: 30px;
+    height: 40px;
     padding: 2px;
     border-bottom-right-radius: 5px;
     border-top-right-radius: 5px;
@@ -79,7 +135,7 @@
 
   #arrow-left {
     width: 60px;
-    height: 30px;
+    height: 40px;
     padding: 2px;
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;

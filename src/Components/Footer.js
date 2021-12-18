@@ -9,7 +9,7 @@ import { Context } from "../Helpers/Context";
 
 function Footer() {
   //global states
-  const { setSearchTerm, setCursor, cursor } = useContext(Context);
+  const { setSearchTerm, setCursor, cursor, isDarkMode } = useContext(Context);
 
   //used for ui in Prev and Next buttons
   const rightArrow = "< ";
@@ -62,7 +62,9 @@ function Footer() {
   };
 
   return (
-    <div className="footer-container">
+    <div
+      className={isDarkMode ? "footer-container-dark" : "footer-container-light"}
+    >
       <button id="arrow-left" onClick={prevClick}>
         {rightArrow}Prev
       </button>

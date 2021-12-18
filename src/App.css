@@ -1,0 +1,39 @@
+.AppLight {
+  background-color: white;
+  color: black;
+  border: 1px solid white;
+
+  transition: color 250ms;
+  transition: background-color 500ms ease-in-out;
+}
+
+.AppDark {
+  background-color: rgb(44, 44, 46);
+  color: rgb(229, 229, 234);
+  border: 1px solid rgb(44, 44, 46);
+  width: 850px;
+  min-height: 1600px;
+  transition: color 250ms;
+  transition: background-color 500ms ease-in-out;
+}
+
+@media only screen and (min-width: 780px) {
+  .AppLight {
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+
+    transition: color 250ms;
+    transition: background-color 500ms ease-in-out;
+  }
+
+  .AppDark {
+    background-color: rgb(44, 44, 46);
+    color: rgb(229, 229, 234);
+    border: 1px solid rgb(44, 44, 46);
+    width: auto;
+    min-height: 100vh;
+    transition: color 250ms;
+    transition: background-color 500ms ease-in-out;
+  }
+}

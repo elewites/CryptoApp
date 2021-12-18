@@ -15,9 +15,10 @@ function App() {
   const [searchTerm, setSearchTerm] = useState("");
   const [cursor, setCursor] = useState(1);
   const [currency, setCurrency] = useState("usd");
+  const [isDarkMode, setIsDarkMode] = useState(false);
 
   return (
-    <div className="App">
+    <div className={isDarkMode ? "AppDark" : "AppLight"}>
       <Context.Provider
         value={{
           searchTerm,
@@ -26,6 +27,8 @@ function App() {
           setCursor,
           currency,
           setCurrency,
+          setIsDarkMode,
+          isDarkMode,
         }}
       >
         <Router>
