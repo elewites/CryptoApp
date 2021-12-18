@@ -1,9 +1,20 @@
-import React, { useState, useParams } from "react";
+import React, { useContext } from "react";
 
 //styles
 import "./coin.css";
 
+//components
+import { Context } from "../Helpers/Context";
+
 export default function Coin(props) {
+  //global states
+  const { currency } = useContext(Context);
+
+  //EFFECTS: if currency is usd, returns dollar sign, returns euro sign otherwise
+  const setDisplayCurr = () => {
+    return currency === "usd" ? "$" : "€";
+  };
+
   return (
     <div className="coin-container">
       <div className="coin-data">
@@ -13,14 +24,23 @@ export default function Coin(props) {
           <p className="coin-name">{props.name}</p>
           <p className="coin-symbol">{props.symbol.toUpperCase()}</p>
         </div>
-        <p className="coin-price">${props.price.toFixed(2)}</p>
+        <p className="coin-price">
+          {setDisplayCurr()}
+          {props.price.toFixed(2)}
+        </p>
         {props.priceChange < 0 ? (
           <p className="price-change red">{props.priceChange.toFixed(2)}%</p>
         ) : (
           <p className="price-change green">{props.priceChange}%</p>
         )}
-        <p className="coin-volume">${props.volume.toLocaleString()}</p>
-        <p className="mkt-cap">${props.marketCap.toLocaleString()}</p>
+        <p className="coin-volume">
+          {setDisplayCurr()}
+          {props.volume.toLocaleString()}
+        </p>
+        <p className="mkt-cap">
+          {setDisplayCurr()}
+          {props.marketCap.toLocaleString()}
+        </p>
         <button className="more-info-button">More Info</button>
       </div>
     </div>
