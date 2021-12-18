@@ -2,6 +2,8 @@
 
 This repository makes use of the [CoinGecko API V3](https://www.coingecko.com/api/documentations/v3#/) to fetch real time data on crypto currencies.
 
+You can check out a deployed version of the project at [CryptoApp](https://unruffled-hugle-cfd73a.netlify.app/). 
+
 ## User Stories
 1. In this app the user able to check the following stats for multiple crypto currencies.
 - Market capital rank
