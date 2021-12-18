@@ -25,9 +25,9 @@ There they will have access to additional information for each coin such as
 - circulating supply, total supply, and max supply
 - fully diluted valuation
 
-5. As a user, one is able to toggle between dark themed mode and light mode. 
+5. As a user, one is able to toggle between dark theme mode and light mode. 
 
-6. The user should be ble to use the app in a laptop or mobile device as all the CSS styling is responsive. 
+6. The user is also able to use the app in a laptop or mobile device as all the CSS styling is responsive. 
 
 ## Available Scripts
 
