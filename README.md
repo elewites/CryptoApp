@@ -4,9 +4,42 @@ This is a responsive web app built using React that makes use of the [CoinGecko 
 
 The app is deployed with Netlify and can be accessed here: [CryptoApp](https://unruffled-hugle-cfd73a.netlify.app/).
 
-# Purpose
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/9b56ce4a-00e8-407c-b862-181d3dc7ee53/deploy-status)](https://app.netlify.com/sites/unruffled-hugle-cfd73a/deploys)
+
+
+# Purpose
+
+I wanted to improve my skills with React, more specifically learn how to work with APIs to fetch data and then create an interface to display it. The project turned out to be a great way to acheive both of the aforementioned objectives. 
+
+
+## Installation
+
+The app is already deployed so you can play around with the final product using this [link](https://unruffled-hugle-cfd73a.netlify.app/).
+
+If you wish to run this app locally, clone this repo and install the dependencies. 
+
+```
+$ git clone https://github.com/elewites/CryptoApp.git
+$ cd cryptoapp
+$ npm install 
+```
+
+Once the dependencies install, run the following command
+
+`npm start`
+
+This runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+### Learn More 
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
 
 ## User Stories
 
