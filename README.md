@@ -1,6 +1,6 @@
 # CryptoApp
 
-This is a responsive web app built using React. The project makes use of the [CoinGecko API V3](https://www.coingecko.com/api/documentations/v3#/) to fetch, organize, and present real time data on crypto currencies.
+This is a responsive web app built using React. The project makes use of the [CoinGecko API V3](https://www.coingecko.com/api/documentations/v3#/) to fetch real time data on crypto currencies. 
 
 The app is deployed with Netlify and can be accessed here: [CryptoApp](https://unruffled-hugle-cfd73a.netlify.app/).
 
@@ -10,7 +10,7 @@ The app is deployed with Netlify and can be accessed here: [CryptoApp](https://u
 
 # Purpose
 
-I wanted to improve my skills with React, more specifically learn how to work with APIs to fetch data and then create an interface to display it. The project turned out to be a great way to acheive both of the aforementioned objectives. 
+I wanted to improve my skills with React; more specifically, learn how to work with APIs to fetch external data to then use it within a web app. The project turned out to be a great way to acheive the aforementioned objectives. 
 
 
 ## Installation
@@ -46,7 +46,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## User Stories
 
-1. In this app the user able to check the following stats for multiple crypto currencies.
+1. In this app the user is able to check the following stats for multiple crypto currencies.
 
 - Market capital rank
 - current price
@@ -62,7 +62,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 4. If the user wants to explore an individual coin more in depth, they can do this by clicking on the more info buttons.
 
-There they will have access to additional information for each coin such as
+There they will have access to additional information for each coin such as:
 
 - Price range within last 24h (low and high)
 - circulating supply, total supply, and max supply
