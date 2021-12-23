@@ -1,6 +1,6 @@
 # CryptoApp
 
-This is a responsive web app built using React that makes use of the [CoinGecko API V3](https://www.coingecko.com/api/documentations/v3#/) to fetch, organize, and visualize real time data on crypto currencies.
+This is a responsive web app built using React. The project makes use of the [CoinGecko API V3](https://www.coingecko.com/api/documentations/v3#/) to fetch, organize, and present real time data on crypto currencies.
 
 The app is deployed with Netlify and can be accessed here: [CryptoApp](https://unruffled-hugle-cfd73a.netlify.app/).
 
@@ -17,7 +17,7 @@ I wanted to improve my skills with React, more specifically learn how to work wi
 
 The app is already deployed so you can play around with the final product using this [link](https://unruffled-hugle-cfd73a.netlify.app/).
 
-If you wish to run this app locally, clone this repo and install the dependencies. 
+If you wish to run the app locally, clone this repo and install the dependencies. 
 
 ```
 $ git clone https://github.com/elewites/CryptoApp.git
@@ -25,11 +25,11 @@ $ cd cryptoapp
 $ npm install 
 ```
 
-Once the dependencies install, run the following command
+Once the dependencies install, run the following command on your terminal:
 
 `npm start`
 
-This runs the app in the development mode.\
+This will run the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ### Learn More 
@@ -40,6 +40,9 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
+## App Conventions
+
+## App Design
 
 ## User Stories
 
@@ -68,29 +71,3 @@ There they will have access to additional information for each coin such as
 5. As a user, one is able to toggle between dark theme mode and light mode.
 
 6. The user is also able to use the app in a laptop or mobile device as all the CSS styling is responsive.
-
-## Available Scripts
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
