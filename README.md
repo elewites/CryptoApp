@@ -2,10 +2,10 @@
 
 This is a responsive web app built using React. The project makes use of the [CoinGecko API V3](https://www.coingecko.com/api/documentations/v3#/) to fetch real time data on crypto currencies. 
 
-The app is deployed with Netlify and can be accessed here: [CryptoApp](https://unruffled-hugle-cfd73a.netlify.app/).
+The app is deployed with Netlify and can be accessed here: [CryptoApp](https://crypt0-app.netlify.app/).
 
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/9b56ce4a-00e8-407c-b862-181d3dc7ee53/deploy-status)](https://app.netlify.com/sites/unruffled-hugle-cfd73a/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9b56ce4a-00e8-407c-b862-181d3dc7ee53/deploy-status)](https://app.netlify.com/sites/crypt0-app/deploys)
 
 
 # Purpose
@@ -15,7 +15,7 @@ I wanted to improve my skills with React; more specifically, learn how to work w
 
 ## Installation
 
-The app is already deployed so you can play around with the final product using this [link](https://unruffled-hugle-cfd73a.netlify.app/).
+The app is already deployed so you can play around with the final product using this [link](https://crypt0-app.netlify.app/).
 
 If you wish to run the app locally, clone this repo and install the dependencies. 
 
