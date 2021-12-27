@@ -86,5 +86,43 @@
   width: 200px;
 }
 
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.back-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  width: 70px;
+  height: 35px;
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  font-size: 15px;
+  background-color: transparent;
+  color: black;
+}
+
+.back-button:hover {
+  background-color: aliceblue;
+  cursor: pointer;
+}
+
+.back-button-dark {
+  border: 2px solid var(--white-font);
+  color: var(--white-font);
+}
+
+.back-button-dark:hover {
+  background-color: rgb(66, 66, 68);
+  font-weight: bold;
+  cursor: pointer;
+}
+
 @media only screen and (min-width: 780px) {
 }
