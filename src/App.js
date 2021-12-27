@@ -1,6 +1,12 @@
 //Libraries
 import { useState } from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  useParams,
+  useLocation,
+} from "react-router-dom";
 
 //Styling
 import "./App.css";
@@ -9,6 +15,7 @@ import "./App.css";
 import Home from "./Routes/Home";
 import Footer from "./Components/Footer";
 import { Context } from "./Helpers/Context";
+import CoinPage from "./Routes/CoinPage";
 
 function App() {
   //global states
@@ -18,7 +25,7 @@ function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   return (
-    <div className={isDarkMode ? "AppDark" : "AppLight"}>
+    <div className={isDarkMode ? "App dark" : "App"}>
       <Context.Provider
         value={{
           searchTerm,
@@ -34,8 +41,8 @@ function App() {
         <Router>
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/coinpage/:id" element={<CoinPage />} />
           </Routes>
-          <Footer />
         </Router>
       </Context.Provider>
     </div>

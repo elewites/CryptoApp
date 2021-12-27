@@ -1,110 +1,90 @@
-.navbar-outer-container {
-  display: inline-flex;
+.navbar-container {
+  --shared-navbar-margin: 10px;
+  display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: flex-end;
-  box-sizing: border-box;
+  align-items: center;
+
   height: 50px;
-  margin-left: 10px;
-
-  margin-bottom: 10px;
+  width: 100%;
+  margin: 10px 0px;
 }
 
-.navbar-inner-container {
-  display: inline-flex;
-  align-items: center;
-  flex-direction: row;
-}
-
-.navbar-button-light {
+.navbar-button {
   display: flex;
   align-items: center;
   justify-content: center;
+
   width: 52px;
   height: 35px;
   padding: 3x;
-  border: 1px solid transparent;
-  border-radius: 15px;
+  box-sizing: border-box;
+}
+
+.n-light {
   border: 1px solid grey;
-  background-color: transparent;
-}
-
-.navbar-button-light:hover {
-  background-color: aliceblue;
-}
-
-.navbar-button-dark {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 52px;
-  height: 35px;
-  padding: 3x;
-  border: 2px solid rgb(229, 229, 234);
   border-radius: 15px;
   background-color: transparent;
-  color: rgb(229, 229, 234);
 }
 
-.navbar-button-dark:hover {
+.n-light:hover {
+  background-color: aliceblue;
+  cursor: pointer;
+}
+
+.n-dark {
+  border: 2px solid var(--white-font);
+  border-radius: 15px;
+  background-color: transparent;
+  color: var(--white-font);
+}
+
+.n-dark:hover {
   background-color: rgb(66, 66, 68);
   font-weight: bold;
+  cursor: pointer;
 }
 
-.input-light {
-  margin-left: 10px;
-  height: 22px;
+.input {
+  margin-left: var(--shared-navbar-margin);
+
+  height: 35px;
   width: 300px;
-  border: 1px solid grey;
-  border-radius: 3px;
   padding: 5px;
   font-size: 15px;
-  color: rgb(59, 59, 59);
+
   outline: none;
 
   transition: color 250ms;
   transition: background-color 500ms ease-in-out;
+
+  box-sizing: border-box;
 }
 
-.input-light:focus {
+.i-light {
+  border: 1px solid grey;
+  border-radius: 3px;
+  color: rgb(59, 59, 59);
+}
+
+.i-light:focus {
   outline: 3px solid rgb(152, 211, 248);
 }
 
-.input-dark {
-  margin-left: 10px;
-  height: 22px;
-  width: 300px;
-  border: 1px solid rgb(229, 229, 234);
+.i-dark {
+  border: 1px solid var(--white-font);
   border-radius: 3px;
-  padding: 5px;
-  font-size: 15px;
-  color: rgb(229, 229, 234);
-  outline: none;
+  color: var(--white-font);
   background-color: rgb(66, 66, 68);
-
-  transition: color 250ms;
-  transition: background-color 500ms ease-in-out;
 }
 
-.input-dark:focus {
-  outline: 2px solid rgb(229, 229, 234);
+.i-dark:focus {
+  outline: 2px solid var(--white-font);
 }
 
 .dark-mode-area {
-  margin-left: 20px;
+  margin-left: var(--shared-navbar-margin);
   width: 200px;
 }
 
 @media only screen and (min-width: 780px) {
-  .navbar-outer-container {
-    margin-left: 70px;
-  }
-
-  .navbar-inner-container input {
-    margin-left: 15px;
-  }
-
-  .dark-mode-area {
-    margin-left: 20px;
-  }
 }

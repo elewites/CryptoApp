@@ -1,6 +1,8 @@
+//libraries imports
 import React, { useContext } from "react";
 import Switch from "@mui/material/Switch";
 import FormControlLabel from "@mui/material/FormControlLabel";
+import { useParams } from "react-router-dom";
 
 //components
 import { Context } from "../Helpers/Context";
@@ -17,11 +19,14 @@ function Navbar() {
     isDarkMode,
   } = useContext(Context);
 
+  //parameters stored in location route
+  //used to determine if search bar renders
+  const { id } = useParams();
+
   //MODIFIES: searchTerm
   //EFFECTS: sets the searchTerm to current value of input
   const handleSearch = (e) => {
     setSearchTerm(e.target.value);
-    console.log(searchTerm);
   };
 
   //MODIFIES: currency
@@ -43,25 +48,27 @@ function Navbar() {
   };
 
   return (
-    <div className="navbar-outer-container">
-      <div className="navbar-inner-container">
-        <button
-          className={isDarkMode ? "navbar-button-dark" : "navbar-button-light"}
-          onClick={handleCurrency}
-        >
-          {currency === "usd" ? "USD" : "EUR"}
-        </button>
+    <div className="navbar-container">
+      <button
+        className={
+          isDarkMode ? "navbar-button n-dark" : "navbar-button n-light"
+        }
+        onClick={handleCurrency}
+      >
+        {currency === "usd" ? "USD" : "EUR"}
+      </button>
+      {!id && (
         <input
-          className={isDarkMode ? "input-dark" : "input-light"}
+          className={isDarkMode ? "input i-dark" : "input i-light"}
           placeholder="Search..."
           onChange={handleSearch}
         ></input>
-        <div className="dark-mode-area">
-          <FormControlLabel
-            label="Dark Mode"
-            control={<Switch onChange={toggleDarkMode} />}
-          />
-        </div>
+      )}
+      <div className="dark-mode-area">
+        <FormControlLabel
+          label="Dark Mode"
+          control={<Switch onChange={toggleDarkMode} />}
+        />
       </div>
     </div>
   );

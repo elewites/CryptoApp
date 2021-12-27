@@ -1,0 +1,26 @@
+.home {
+  transition: color 250ms;
+  transition: background-color 500ms ease-in-out;
+
+  min-height: 100vh;
+  
+}
+
+.h-light {
+  background-color: white;
+  color: black;
+}
+
+.h-dark {
+  background-color: var(--dark-color);
+  color: var(--white-font);
+}
+
+@media only screen and (min-width: 780px) {
+  .home {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    min-height: 100vh;
+  }
+}

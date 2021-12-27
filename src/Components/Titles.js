@@ -4,8 +4,6 @@ import "./titles.css";
 
 function Titles() {
   return (
-    <div className="title-container">
-      <div className="title-coin-data">
         <div className="title-data">
           <p className="title-rank">#</p>
           <p className="title-icon-and-name">Coin</p>
@@ -14,8 +12,6 @@ function Titles() {
           <p className="title-coin-volume">24h Volume</p>
           <p className="title-mkt-cap">Mkt Cap</p>
         </div>
-      </div>
-    </div>
   );
 }
 

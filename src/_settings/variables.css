@@ -1,0 +1,26 @@
+:root {
+  /* dark theme color */
+  --dark-color: rgb(44, 44, 46);
+
+  /* white font */
+  --white-font: rgb(229, 229, 234);
+
+  /* variables used to align titles with each column 
+     these variables below are used in coin.css and titles.css
+  */
+  --icon-and-name-width: 210px;
+  --coin-price-width: 60px;
+  --price-change-width: 60px;
+  --coin-volume-width: 110px;
+  --mkt-cap-width: 110px;
+  --shared-coin-margin-left: 30px;
+
+  --coin-rank-large: 60px;
+  --icon-and-name-width-large: 330px;
+  --coin-price-width-large: 110px;
+  --price-change-width-large: 110px;
+  --coin-volume-width-large: 190px;
+  --mkt-cap-width-large: 190px;
+  --shared-coin-margin-left-large: 45px
+
+}

@@ -1,0 +1,123 @@
+.outermost-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.dark {
+  color: white;
+}
+
+.coinpage-container {
+  width: 90%;
+}
+
+.coinpage-top {
+  display: flex;
+  flex-direction: column;
+}
+
+.coinpage-rank {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 30px;
+  border: 1px solid rgba(31, 41, 55);
+  border-radius: 5px;
+  background-color: rgba(31, 41, 55);
+  color: rgba(243, 244, 246);
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 2px;
+}
+
+.rank-dark {
+  background-color: #f2a900;
+  opacity: 0.9;
+}
+
+.coinpage-top-inner-container {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  margin-top: 15px;
+}
+
+.coinpage-top-inner-container img {
+  height: 40px;
+}
+
+.coinpage-top-inner-container p {
+  height: 40px;
+  margin-left: 5px;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgba(31, 41, 55);
+}
+
+.inner-dark p {
+  color: var(--white-font);
+}
+
+.coinpage-price-container {
+  margin-top: 5px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.coinpage-price {
+  display: flex;
+  align-items: flex-end;
+  font-size: 45px;
+  font-weight: bold;
+  color: rgba(31, 41, 55);
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+  height: 50px;
+}
+
+.page-dark {
+  color: var(--white-font);
+}
+
+.coinpage-percentage {
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  font-size: 30px;
+  font-weight: bold;
+
+  height: 50px;
+}
+
+.red {
+  color: #e15241;
+}
+
+.green {
+  color: rgb(31, 173, 31);
+}
+
+.coinpage-bottom {
+}
+
+.b-dark p {
+  color: white;
+}
+
+.coinpage-row {
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(182, 182, 185);
+  font-size: 18px;
+}
+
+.row-label {
+  color: rgb(107, 106, 106);
+}
