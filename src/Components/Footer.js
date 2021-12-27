@@ -2,7 +2,7 @@
 import React, { useContext } from "react";
 
 //styles
-import "./footer.css";
+import "./styling/footer.css";
 
 //components
 import { Context } from "../Helpers/Context";
@@ -63,7 +63,9 @@ function Footer() {
 
   return (
     <div
-      className={isDarkMode ? "footer-container-dark" : "footer-container-light"}
+      className={
+        isDarkMode ? "footer-container-dark" : "footer-container-light"
+      }
     >
       <button id="arrow-left" onClick={prevClick}>
         {rightArrow}Prev

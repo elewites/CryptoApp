@@ -6,12 +6,11 @@ import { useParams } from "react-router-dom";
 
 //components
 import { Context } from "../Helpers/Context";
-import "./navbar.css";
+import "./styling/navbar.css";
 
 function Navbar() {
   //searchTerm global state
   const {
-    searchTerm,
     setSearchTerm,
     currency,
     setCurrency,
@@ -51,7 +50,7 @@ function Navbar() {
     <div className="navbar-container">
       <button
         className={
-          isDarkMode ? "navbar-button n-dark" : "navbar-button n-light"
+          isDarkMode ? "navbar-button b-dark" : "navbar-button b-light"
         }
         onClick={handleCurrency}
       >

@@ -21,16 +21,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 80px;
+  width: 70px;
   height: 30px;
   border: 1px solid rgba(31, 41, 55);
   border-radius: 5px;
   background-color: rgba(31, 41, 55);
   color: rgba(243, 244, 246);
+  font-size: 12px;
   font-weight: bold;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding: 2px;
 }
 
 .rank-dark {
@@ -50,9 +50,11 @@
 }
 
 .coinpage-top-inner-container p {
+  display: flex;
+  align-items: center;
   height: 40px;
   margin-left: 5px;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bold;
   color: rgba(31, 41, 55);
 }
@@ -95,18 +97,18 @@
   height: 50px;
 }
 
-.red {
+.coinpage-red {
   color: #e15241;
 }
 
-.green {
+.coinpage-green {
   color: rgb(31, 173, 31);
 }
 
 .coinpage-bottom {
 }
 
-.b-dark p {
+.bottom-dark p {
   color: white;
 }
 

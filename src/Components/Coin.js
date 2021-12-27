@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { useNavigate } from "react-router-dom";
 
 //styles
-import "./coin.css";
+import "./styling/coin.css";
 
 //components
 import { Context } from "../Helpers/Context";
@@ -22,7 +22,10 @@ export default function Coin(props) {
   return (
     <div
       className={isDarkMode ? "coin-data c-dark" : "coin-data c-light"}
-      onClick={() => navigate(`/coinpage/${props.id}`)}
+      onClick={() => {
+        navigate(`/coinpage/${props.id}`);
+        setIsDarkMode(false);
+      }}
     >
       <p className="coin-rank">{props.rank}</p>
       <div className="icon-and-name">

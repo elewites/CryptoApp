@@ -20,25 +20,25 @@
   box-sizing: border-box;
 }
 
-.n-light {
+.b-light {
   border: 1px solid grey;
   border-radius: 15px;
   background-color: transparent;
 }
 
-.n-light:hover {
+.b-light:hover {
   background-color: aliceblue;
   cursor: pointer;
 }
 
-.n-dark {
+.b-dark {
   border: 2px solid var(--white-font);
   border-radius: 15px;
   background-color: transparent;
   color: var(--white-font);
 }
 
-.n-dark:hover {
+.b-dark:hover {
   background-color: rgb(66, 66, 68);
   font-weight: bold;
   cursor: pointer;
