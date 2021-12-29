@@ -44,3 +44,9 @@
 .price-display {
   margin-left: 2px;
 }
+
+@media only screen and (max-width: 780px) {
+  .chart-container {
+    margin-top: 0px;
+  }
+}

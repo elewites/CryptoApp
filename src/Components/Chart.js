@@ -77,11 +77,33 @@ function Chart() {
     }
   };
 
+  //state used to change width of xychart when window is resized
+  const [width, setWidth] = useState(500);
+  
+  //if window screen is less than 600px, the width of chart is changed
+  useEffect(() => {
+    if (window.screen.width <= 600) {
+      setWidth(300);
+    }
+  }, []);
+
+  window.addEventListener(
+    "resize",
+    function (event) {
+      if (this.screen.width <= 600) {
+        setWidth(300);
+      } else {
+        setWidth(500);
+      }
+    },
+    true
+  );
+
   if (prices) {
     return (
       <div className="chart-container">
         <XYChart
-          height={500}
+          height={width}
           xScale={{ type: "time" }}
           yScale={{ type: "log" }}
         >
@@ -98,7 +120,7 @@ function Chart() {
             hideAxisLine
             hideTicks
             tickLabelProps={() => ({ fill: fill() })}
-            tickFormat={(v) => "$" + v}
+            tickFormat={(v) => setDisplayCurr() + v}
           />
           <AnimatedGrid
             columns={false}
