@@ -83,7 +83,7 @@ function Chart() {
   //if window screen is less than 600px, the width of chart is changed
   useEffect(() => {
     if (window.screen.width <= 600) {
-      setWidth(200);
+      setWidth(300);
     }
   }, []);
 
@@ -91,7 +91,7 @@ function Chart() {
     "resize",
     function (event) {
       if (this.screen.width <= 600) {
-        setWidth(200);
+        setWidth(300);
       } else {
         setWidth(500);
       }
