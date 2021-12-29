@@ -79,11 +79,11 @@ function Chart() {
 
   //state used to change width of xychart when window is resized
   const [width, setWidth] = useState(500);
-  
+
   //if window screen is less than 600px, the width of chart is changed
   useEffect(() => {
     if (window.screen.width <= 600) {
-      setWidth(300);
+      setWidth(200);
     }
   }, []);
 
@@ -91,7 +91,7 @@ function Chart() {
     "resize",
     function (event) {
       if (this.screen.width <= 600) {
-        setWidth(300);
+        setWidth(200);
       } else {
         setWidth(500);
       }
