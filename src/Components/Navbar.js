@@ -7,8 +7,6 @@ import { useParams, useNavigate } from "react-router-dom";
 //components
 import { Context } from "../Helpers/Context";
 import "./styling/navbar.css";
-import backArrow from "../back_arrow.png";
-import backArrowTwo from "../back_arrow_two.png";
 
 function Navbar() {
   //searchTerm global state

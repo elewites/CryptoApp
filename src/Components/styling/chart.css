@@ -1,0 +1,46 @@
+.chart-container {
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.t {
+  background-color: rgba(231, 231, 231, 0.37) !important;
+  border: 1px solid #7cb5ec !important;
+  border-radius: 0px !important;
+  font-weight: normal !important;
+  color: rgb(87, 86, 86) !important;
+}
+
+.t-dark {
+  background-color: rgba(231, 231, 231, 0.705) !important;
+  color: black !important;
+}
+
+.tooltip-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 170px;
+  height: 40px;
+}
+
+.tooltip-date {
+  display: flex;
+  align-items: center;
+  height: 20px;
+  font-weight: bold;
+}
+
+.tooltip-price {
+  display: flex;
+  height: 20px;
+  align-items: center;
+}
+
+.bold-label {
+  font-weight: bold;
+}
+
+.price-display {
+  margin-left: 2px;
+}

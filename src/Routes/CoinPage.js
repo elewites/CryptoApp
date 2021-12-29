@@ -8,6 +8,7 @@ import "./styling/coinpage.css";
 //components
 import { Context } from "../Helpers/Context";
 import Navbar from "../Components/Navbar";
+import Chart from "../Components/Chart";
 
 function CoinPage() {
   //global states
@@ -162,6 +163,7 @@ function CoinPage() {
               <p>{maxSupply ? maxSupply.toLocaleString() : notAvailable}</p>
             </div>
           </div>
+          <Chart />
         </div>
       </div>
     );
