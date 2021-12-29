@@ -77,13 +77,13 @@ function Chart() {
     }
   };
 
-  //state used to change width of xychart when window is resized
-  const [width, setWidth] = useState(500);
+  //state used to change height of xychart when window is resized
+  const [height, setHeight] = useState(500);
 
   //if window screen is less than 600px, the width of chart is changed
   useEffect(() => {
     if (window.screen.width <= 600) {
-      setWidth(300);
+      setHeight(300);
     }
   }, []);
 
@@ -91,9 +91,9 @@ function Chart() {
     "resize",
     function (event) {
       if (this.screen.width <= 600) {
-        setWidth(300);
+        setHeight(300);
       } else {
-        setWidth(500);
+        setHeight(500);
       }
     },
     true
@@ -103,7 +103,7 @@ function Chart() {
     return (
       <div className="chart-container">
         <XYChart
-          height={width}
+          height={height}
           xScale={{ type: "time" }}
           yScale={{ type: "log" }}
         >
