@@ -40,11 +40,10 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-## App Conventions
-
 ## App Design
 
 ## User Stories
+### The following user stories helped me organize the development of the app and visualize the end result. 
 
 1. In this app the user is able to check the following stats for multiple crypto currencies.
 
