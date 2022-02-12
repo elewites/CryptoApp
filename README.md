@@ -41,6 +41,9 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## App Design
+- The app is built as a responsive web app to fit desktop, laptop, and mobile screens.
+- The app has two design modes built in: dark mode and light mode. This can be toggled at a button on the top left corner. 
+- The [visx](https://airbnb.io/visx/) library was used to make the charts that display crypto currency data. 
 
 ## User Stories
 ### The following user stories helped me organize the development of the app and visualize the end result. 
