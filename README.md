@@ -5,9 +5,6 @@ This is a responsive web app built using React. The project makes use of the [Co
 The app is deployed with Netlify and can be accessed here: [CryptoApp](https://crypt0-app.netlify.app/).
 
 
-[![Netlify Status]
-
-
 # Purpose
 
 I wanted to improve my skills with React; more specifically, learn how to work with APIs to fetch external data to then use it within a web app. The project turned out to be a great way to acheive the aforementioned objectives. 
