@@ -1,8 +1,9 @@
 # CryptoApp
 
+The app is deployed with Netlify and can be accessed here: [CryptoApp](https://crypt0-app.netlify.app/).
+
 This is a responsive web app built using React. The project makes use of the [CoinGecko API V3](https://www.coingecko.com/api/documentations/v3#/) to fetch real time data on crypto currencies. 
 
-The app is deployed with Netlify and can be accessed here: [CryptoApp](https://crypt0-app.netlify.app/).
 
 
 # Purpose
